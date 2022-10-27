@@ -1,4 +1,4 @@
-package com.spring.codeblog.service;
+package com.spring.codeblog.service.serviceImpl;
 
 import java.util.List;
 
@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.spring.codeblog.model.Post;
 import com.spring.codeblog.repository.CodeblogRepository;
+import com.spring.codeblog.service.CodeblogService;
 
 @Service
 public class CodeblogServiceImpl implements CodeblogService {
